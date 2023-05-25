@@ -1,12 +1,18 @@
+require("dotenv").config();
 const express = require("express");
 const app = express();
 const path = require("path");
-const { logger } = require("./middleware/logger.jsx");
+const { logger, logEvents } = require("./middleware/logger.jsx");
 const errorHandler = require("./middleware/errorHandler.jsx");
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
 const corsOptions = require("./config/corsOptions.jsx");
+const connectDB = require("./config/dbConn.jsx");
 const PORT = process.env.PORT || 3500;
+
+console.log(process.env.NODE_ENV);
+
+const client = connectDB();
 
 app.use(logger);
 
