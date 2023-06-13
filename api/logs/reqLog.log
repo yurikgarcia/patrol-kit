@@ -18,3 +18,8 @@
 20230605	15:13:20	3ef3eb65-e6b0-4e2b-9500-13ce503a7687	GET	/users	undefined
 20230605	15:13:27	6c8e62cb-6a95-4ad3-9738-aacc50acd92c	POST	/users	undefined
 20230605	15:13:28	68a44d83-2c18-4539-bd3a-618ec1e042ca	POST	/users	undefined
+20230606	08:12:09	263c73f1-86b0-4a9a-8aae-b9b1aebd0dc4	GET	/	undefined
+20230606	08:12:09	0a27915d-a955-441c-a24b-a05ed05a8e8e	GET	/css/style.css	undefined
+20230606	08:12:11	9f4d26df-c393-45ca-9b56-b88d5b2572b7	GET	/favicon.ico	undefined
+20230606	11:14:41	61c09777-e682-4b48-9e61-e300aec003be	GET	/	undefined
+20230606	11:14:41	bc8aa75b-d247-4584-a8b3-3c4639b6bde3	GET	/css/style.css	undefined
