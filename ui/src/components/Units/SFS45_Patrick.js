@@ -17,7 +17,7 @@ function Home() {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          mb: 5,
+          mb: 0.5,
         }}
       >
         <h1>45th Security Forces Squadron</h1>
@@ -33,11 +33,9 @@ function Home() {
         <Grid
           container
           spacing={3}
-          sx={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }} // Update the sx prop
+          justifyContent="center"
+          alignItems="center"
+          style={{ maxWidth: "80%", margin: "0 auto" }}
         >
           <Grid item xs={12} md={6} lg={3}>
             <Card sx={{ maxWidth: 345, boxShadow: 5 }}>
